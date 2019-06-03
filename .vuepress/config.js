@@ -18,14 +18,14 @@ module.exports = {
     sidebar: {
       // Getting Started Course
       '/getting-started/': [
-        '',
+        ['', 'Course Introduction'],
         ['why-vue', 'Why Vue?'],
-        'hello-vue',
+        ['hello-vue', 'Hello Vue'],
         ['development-env', 'Development Environment'],
-        'vue-cli',
-        'vue-ui',
-        'create-first-component',
-        'resources'
+        ['vue-cli', 'Vue CLI'],
+        ['vue-ui', 'Vue UI'],
+        ['first-component', 'Single File Components (SFC)'],
+        ['resources', 'Resources & Next Steps']
       ],
 
       // fallback

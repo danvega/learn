@@ -1,1 +1,1 @@
-# Hello Vue
+# Writing your first Vue Application
