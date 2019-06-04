@@ -12,9 +12,13 @@ module.exports = {
           text: 'Getting Started with Vue',
           link: '/getting-started/'
         }]
+      },
+      {
+        text: 'www.danvega.dev',
+        link: 'https://www.danvega.dev'
       }
     ],
-    sidebarDepth: 2,
+    sidebarDepth: 1,
     sidebar: {
       // Getting Started Course
       '/getting-started/': [
@@ -24,14 +28,19 @@ module.exports = {
         ['development-env', 'Development Environment'],
         ['vue-cli', 'Vue CLI'],
         ['vue-ui', 'Vue UI'],
-        ['first-component', 'Single File Components (SFC)'],
-        ['resources', 'Resources & Next Steps']
+        ['reusable-components', 'Reusable Components'],
+        ['resources', 'Resources'],
+        ['whats-next', "What's Next?"]
       ],
+
+      // other courses
 
       // fallback
       '/': [
         '',
       ]
     },
-  }
+    totalStudents: '84,000+'
+  },
+  ga: 'UA-133826656-1'
 }
